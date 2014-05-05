@@ -5,8 +5,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" />
 	<link rel="Shortcut Icon" type="image/ico" href="images/PSV_icon.png">
-	<script src="http://www.psvcredentialing.com/Javascripts/jquery.js"></script>
-	<script src="http://www.psvcredentialing.com/Javascripts/jquery.validate.js"></script>
+	<script src="Javascripts/jquery.js"></script>
+	<script src="Javascripts/jquery.validate.js"></script>
     <style type="text/css">
 	input#physicians_f {
    	 border-radius:5px;
