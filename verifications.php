@@ -77,24 +77,10 @@
 		    <div id="header">
 				<a href="index.php"><img src="images/PSV_Logo.png" border="0"></a> 
 				<div id="account">
-					<div id="login">
-						<?php include('login.php'); ?>
-					</div>
-					<div id="user">
-						<?php include('account.php'); ?>
-					</div>
 				</div>
 			</div>
-			<ul id="menu-bar">
-				<li><a href="index.php">Home</a></li> 
-				<li><a href="about.php">About</a></li>
-				<li><a href="resources.php">Resources</a></li>				
-                            <li class="active"><a href="verifications.php">Verifications</a></li>
-				<li><a href="contact.php">Contact</a></li>
-			</ul>
 			</div>
 			<div id="content-v">
-				<?php if (isset($errors)) { echo resultBlock($errors,$successes); } ?>
 			<div id="block3">
 				<form id="f1" name="f1" action="" method="get" target="_blank">
 					<div id="col">
@@ -238,7 +224,6 @@ $(document).ready(function() {
 
 				<?php
 					require_once('WkHtmlToPdf.php');
-					require_once("models/config.php");
 					if(isset($_GET['submit'])){
 						$uid = uniqid();
 						error_reporting(E_ALL);
@@ -400,7 +385,6 @@ $(document).ready(function() {
 			</div>
 		    <div id="footer">
 				<div style="display: inline-block;">Copyright © 2013 PSV Credentialing LLC. All rights reserved.</div>
-				<div style="padding: 0 20px; display: inline-block;"><a href="tos.php">Terms of Service</a> | <a href="privacy.php">Privacy</a></div>
 			</div>		
 	</div>
 </body>
