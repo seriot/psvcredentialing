@@ -74,13 +74,10 @@
 </head>
 <body>
 	<div id="container">
-		    <div id="header">
+		<div id="header">
 				<a href="index.php"><img src="images/PSV_Logo.png" border="0"></a> 
-				<div id="account">
-				</div>
-			</div>
-			</div>
-			<div id="content-v">
+		</div>
+		<div id="content-v">
 			<div id="block3">
 				<form id="f1" name="f1" action="" method="get" target="_blank">
 					<div id="col">
